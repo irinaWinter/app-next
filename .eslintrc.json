@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "rules": {
+    "semi": "off"
+  },
+  "extends": [
+    "eslint:recommended"
+  ]
 }
