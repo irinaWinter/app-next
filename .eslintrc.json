@@ -4,6 +4,7 @@
     "semi": "off"
   },
   "extends": [
-    "eslint:recommended"
+    "eslint:recommended",
+    "plugin:react-hooks/recommended"
   ]
 }
