@@ -24,11 +24,8 @@ function Home({ menu }: HomeProps): JSX.Element {
       <Tag color="primary">Primary</Tag>
       <Rating rating={rating} isEditable={true} setRating={setRating} />
       <Rating rating={2} />
-      <ul>
-        {menu.map(m => (<li key={m._id.secondCategory}>{m._id.secondCategory}</li>))}
-      </ul>
     </>
-  )
+  );
 }
 
 export default withLayout(Home);
